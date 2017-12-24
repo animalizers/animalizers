@@ -1,5 +1,9 @@
 Animalizers' GITHUB *Fast* Landing Page, contain:
 
-* [/cluster-project](../../../cluster-project)
+* [/cluster-project](../../../cluster-project/)
 
-* [ani](../../../ani)
+* [/anii](../../../anii/)
+
+* [/locoedit](../../../anii/locoedit/)
+
+(C) Animalizers 2017
