@@ -13,10 +13,10 @@
 <div class="container">
   <h2>Dynamic Tabs</h2>
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#home">Home</a></li>
-    <li><a href="#menu1">Menu 1</a></li>
-    <li><a href="#menu2">Menu 2</a></li>
-    <li><a href="#menu3">Menu 3</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
   </ul>
 
   <div class="tab-content">
@@ -38,14 +38,6 @@
     </div>
   </div>
 </div>
-
-<script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-});
-</script>
 
 </body>
 </html>
