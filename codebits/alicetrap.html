@@ -11,11 +11,11 @@
     <p style="text-align: center; color: white; font: normal normal 16px Segoe UI; margin: 0 0 10px">Codebits</p>
     <!-- Navi -->
     <script type="js/bootstrap">
-	$('#myTabs a').click(function (e) {
-	  e.preventDefault()
-	  $(this).tab('show')
-	  $('#myTabs a[href="#profile"]').tab('show')
-	})
+	$(document).ready(function(){
+	  $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+	  });
+	});
     </script>
 	<!-- Nav tabs -->
 	<nav>
