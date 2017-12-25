@@ -11,7 +11,7 @@
     <p style="text-align: center; color: white; font: normal normal 16px Segoe UI; margin: 0 0 10px">Codebits</p>
     <!-- Navi -->
     <script>
-	$('#home a').click(function (e) {
+	$('#home a:first').click(function (e) {
 		e.preventDefault()
 		$(this).tab('show')
 	})
@@ -19,7 +19,7 @@
 	<!-- Nav tabs -->
 	<nav>
 	<ul class="nav nav-tabs" role="tablist">
-		<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+		<li role="presentation" class=""><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
 		<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
 		<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
 		<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
@@ -27,25 +27,17 @@
 	</nav
 	<!-- Tab panes -->
 	<div class="tab-content">
-		<div role="tabpanel" class="tab-pane active" id="home">
-		<div class="maincontainer">
+		<div role="tabpanel" class="tab-pane maincontainer" id="home">
 		mega content here
 		</div>
-		</div>
-		<div role="tabpanel" class="tab-pane" id="profile">
-		<div class="maincontainer">
+		<div role="tabpanel" class="tab-pane maincontainer" id="profile">
 		sub content here 1
 		</div>
-		</div>
-		<div role="tabpanel" class="tab-pane" id="messages">
-		<div class="maincontainer">
+		<div role="tabpanel" class="tab-pane maincontainer" id="messages">
 		sub content here 2
 		</div>
-		</div>
-		<div role="tabpanel" class="tab-pane" id="settings">
-		<div class="maincontainer">
+		<div role="tabpanel" class="tab-pane maincontainer" id="settings">
 		sub content here 3
-		</div>
 		</div>
 	</div>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
