@@ -12,18 +12,9 @@
     <!-- Navi -->
     <script type="js/bootstrap">
 	$('#home a').click(function (e) {
-	e.preventDefault()
-	$(this).tab('show')
-	})$('#profile a').click(function (e) {
-	e.preventDefault()
-	$(this).tab('show')
-	})$('#messages a').click(function (e) {
-	e.preventDefault()
-	$(this).tab('show')
-	})$('#settings a').click(function (e) {
-	e.preventDefault()
-	$(this).tab('show')
-})
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
     </script>
 	<!-- Nav tabs -->
 	<nav>
@@ -37,16 +28,16 @@
 	<!-- Tab panes -->
 	<div class="tab-content">
 		<div role="tabpanel" class="tab-pane maincontainer" id="home">
-		mega content here
+		<article>mega content here</article>
 		</div>
 		<div role="tabpanel" class="tab-pane maincontainer" id="profile">
-		sub content here 1
+		<article>sub content here 1</article>
 		</div>
 		<div role="tabpanel" class="tab-pane maincontainer" id="messages">
-		sub content here 2
+		<article>sub content here 2</article>
 		</div>
 		<div role="tabpanel" class="tab-pane maincontainer" id="settings">
-		sub content here 3
+		<article>sub content here 3</article>
 		</div>
 	</div>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
