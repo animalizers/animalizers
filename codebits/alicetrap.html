@@ -11,7 +11,19 @@
     <p style="text-align: center; color: white; font: normal normal 16px Segoe UI; margin: 0 0 10px">Codebits</p>
     <!-- Navi -->
     <script type="js/bootstrap">
-	$('#myTabs a[href="#profile"]').tab('show')
+	$('#home a').click(function (e) {
+	e.preventDefault()
+	$(this).tab('show')
+	})$('#profile a').click(function (e) {
+	e.preventDefault()
+	$(this).tab('show')
+	})$('#messages a').click(function (e) {
+	e.preventDefault()
+	$(this).tab('show')
+	})$('#settings a').click(function (e) {
+	e.preventDefault()
+	$(this).tab('show')
+})
     </script>
 	<!-- Nav tabs -->
 	<nav>
