@@ -5,7 +5,7 @@ body {
 	background-position: center center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
-	font-family:' Lucida Sans', sans-serif !important;
+	font-family:' Lucida Sans', sans-serif;
 	font-size: 14px;
 }
 a {
@@ -23,16 +23,19 @@ a {
 	width: 100%;
 }
 .headtitle {
+	background-color: #333;
 	color: #fff;
-	font-family: 'Lucida Sans', sans-serif;
-	font-size: 26px;
+	font-family: 'Crushed', cursive;
+	font-size: 32px;
+	padding: .2em;
 }
 .head3, .h3post {
-	color: white;
+	background-color: #333;
+	color: #fff;
 	font-family:'Crushed', cursive;
-	font-size: 20px;
+	font-size: 24px;
 }
 .metadesc {
-	color: white;
+	color: #fff;
 	font-family: 'Lucida Sans', sans-serif;
 }
