@@ -1,57 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Crushed');
 body {
-	background: url("http://i57.tinypic.com/2uhsu1v.jpg") !important;
-	background-size: cover !important;
-	background-position: center center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed !important;
-	font-family:' Lucida Sans', sans-serif;
-	font-size: 14px;
+    background: url("http://i57.tinypic.com/2uhsu1v.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
 }
 a {
-	-o-transition: all .4s ease-in-out;
-	-moz-transition: all .4s ease-in-out;
-	-ms-transition: all .4s ease-in-out;
-	-webkit-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
-nav{
-	font-family: 'Crushed', cursive;
-	font-size: 32px;
-	max-width: 800px;
+ul {
+    font-family: 'Crushed', cursive;
+    font-size: 24px;
 }
-.navbar{
-	margin-bottom: 0px;
+.title-brand {
+    font-family: 'Crushed', cursive;
+    font-size: 32px;
 }
-.maincontainer {
-	background-color: rgba(255,255,255,.4);
-    border: 1px #ccc solid;
-    border-radius: 0 0 10px 10px;
-	box-shadow: inset -1em 10em 10em 0px rgba(255, 255, 255,.4);
-	max-height: 410px;
-	max-width: 800px;
-	overflow: auto;
-	padding: 0 10px;
-	width: 100%;
+.navbar-text {
+    font-family: 'Crushed', cursive;
+    font-size: 14px;
+    clear: both;
+    margin: 17px auto;
+    padding-left: 4em;
+    position: absolute;
 }
-.headtitle {
-	background-color: #333;
-	color: #fff;
-	font-family: 'Crushed', cursive;
-	font-size: 32px;
-	padding: .2em;
+/* semitransparent container */
+.container-st {
+    background-color: rgba(255, 255, 255, .4);
+    padding: 10px;
+    max-width: auto;
 }
-.head3, .h3post {
-	background-color: #333;
-	color: #fff;
-	font-family:'Crushed', cursive;
-	font-size: 24px;
-	padding: 3px 20px;
-	margin: 10px auto;
-}
-.metadesc {
-	color: #fff;
-	font-family: 'Crushed', cursive;
-	margin: -25px 40px 80px;
-	padding: 0.2em;
+.head {
+    font: normal 12px 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-top: 10px;
 }
