@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crushed|Roboto|Open+Sans');
 body {
     background-attachment: fixed;
-    background-image: url("../../assets/alicetrap-bg.webp");
+    background-image: url("alicetrap-bg.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
