@@ -2,6 +2,23 @@
 <head>
     <title>animalizers.github.io - fast landing page html ver.</title>
     <link rel="stylesheet" href="/dist/style.min.css"/>
+    <script language='javascript'>
+            //<![CDATA[
+            var key = window.location.href.split("go/")[1].replace("/","")
+            var urls={
+                'steam':"https://steamcommunity.com/id/animalizers"
+                'tw':"https://twitter.com/animalizers" /* without commas */
+                'pweb19_05git':"https://github.com/animalizers/animalizers.github.io/tree/master/colleges/pweb19_05"
+            }
+            if(key){
+                if(urls[key]){
+                    window.location.href=urls[key]
+                }else{
+                    document.write("'"+key+"' not found :(");
+                }
+            }
+        //]]>
+    </script>            
 </head>
     <body>
         <div class="th1">Animalizers' GITHUB <i>Fast</i> Landing Page, contain:</div>
