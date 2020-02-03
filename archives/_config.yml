@@ -26,15 +26,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: animalizers
-github_username:  animalizers
+twitter_username: 
+github_username:  
 
 # Extras
 header_pages:
-  - index.markdown
+  - index.html
   - about.md
-  - live.md
-footer: '2020 <a href="https://twitter.com/animalizers" target="_blank">animalizers</a>'
+  - contact.md
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 # Build settings
 theme: jekyll-theme-console
