@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir</title>
+
+</head>
+<body>
+	<style>
+	body{
+		background-color: rgba(204, 204, 204, .8);
+	}
+	</style>
+	Form pendaftaran mahasiswa baru
+	<form method="POST">
+		<p>Nama Lengkap: </p>
+		<input type="text" name="nama">
+		
+		<p>Tempat lahir: </p>
+		<input type="text" name="tempat-lahir">
+
+		<p>Tanggal lahir: </p>
+		<input type="date" name="tanggal-lahir">
+
+		<p>Asal sekolah: </p>
+		<input type="text" name="asal">
+
+		<p>Agama: </p>
+		<select name="agama">
+			<option value="Islam">Islam</option>
+			<option value="Kristen">Kristen</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+		</select>
+
+		<p>Jenis kelamin: </p>
+		<input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki<br>
+		<input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+
+		<p>Nama ibu: </p>
+		<input type="text" name="nama-ibu">
+		
+		<p>Nama wali: </p>
+		<input type="text" name="wali">
+
+		<p>Alamat:</p>
+		<textarea name="alamat"></textarea>
+		<br>
+
+		<input type="submit" name="submit" value="Simpan">
+		<input type="reset" name="reset" value="Reset">
+	</form>
+</body>
+</html>

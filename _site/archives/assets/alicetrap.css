@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Crushed|Roboto|Open+Sans');
+body {
+    background-attachment: fixed;
+    background-image: url("alicetrap-bg.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #CCC;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+ul {
+    font-family: 'Crushed', cursive;
+    font-size: 24px;
+}
+.title-brand {
+    font-family: 'Crushed', cursive;
+    font-size: 32px;
+}
+.navbar-text {
+    font-family: 'Crushed', cursive;
+    font-size: 14px;
+    clear: both;
+    margin: 17px auto;
+    padding-left: 4em;
+    position: absolute;
+}
+/* semitransparent container */
+.container-st {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
+    max-width: auto;
+    border: 1px #333 solid;
+    border-radius: 5px;
+    box-shadow: inset -.1em .1em 1em .1em rgba(0, 0, 0, .4);
+    letter-spacing: .1;
+    overflow: auto;
+    letter-spacing: .1em;
+}
+.head {
+    font: normal 12px 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
