@@ -6,28 +6,26 @@ categories: gaming
 
 [Attachment.zip](Attachment.zip)
 
-How to Borderlands 2 Japanese Voiceover/Dub with English subtitle
-This folder only contain JP audio only, and part of The Handsome Collection
+How to Borderlands 2 Japanese Voiceover/Dub with English subtitle. This folder only contain JP audio only, and part of The Handsome Collection.
 
-Assume you are already unpack/unzip this folder at the time of reading this
+Assume you are already unpack/unzip this folder at the time of reading this.
 
-Copy all the FOLDER (select all, EXCEPT Japanese folder)
+Copy all the FOLDERS (select all, EXCEPT Japanese folder)
 and paste inside your Borderlands 2 DLC folder
 `..\SteamLibrary\steamapps\common\Borderlands 2\DLC`
 
 Copy ONLY Japanese folder and paste inside CookedPCConsole
-
 `..\SteamLibrary\steamapps\common\Borderlands 2\WillowGame\CookedPCConsole`
 
 Copy WillowEngine.ini file and paste inside your local game directory
-TIP: You can make a BACKUP your current .ini by just rename it to
-something like `WillowEngine-backup.ini` in case you want to revert it back later.
 
+TIP: You can make a BACKUP your current .ini by just rename it to something like
+`WillowEngine-backup.ini` in case you want to revert it back later
 `C:\Users\<your username>\Documents\My Games\Borderlands 2\WillowGame\Config`
 
 PS and Question:
 
-(+)WillowEngine.ini changes the default voiceover/dub inside the game.
+(+)`WillowEngine.ini` changes the default voiceover/dub inside the game.
 
 (?)-Will this work if I only have the base game and `The Season Pass`?
 
@@ -44,9 +42,8 @@ You can try it.
 work, try to Verify the game file in Steam. Expect 1.5GiB file re-download.
 It will re-download english dub.
 
-If you want full more detailed guide visit the link below
-(not created by me, instead this is the tldr ver of that page)
+If you want full more detailed guide visit this link
+(not created by me, instead this is the short version of that page)
 [https://steamcommunity.com/app/49520/discussions/0/490121928337536889/](https://steamcommunity.com/app/49520/discussions/0/490121928337536889/)
 
-Have a question drop a comment on my [steam profile](
-https://steamcommunity.com/id/animalizers)
+Have a question? drop a comment on my [steam profile](https://steamcommunity.com/id/animalizers)
