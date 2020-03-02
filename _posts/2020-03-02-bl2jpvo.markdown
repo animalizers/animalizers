@@ -8,7 +8,9 @@ categories: gaming
 
 How to Borderlands 2 Japanese Voiceover/Dub with English subtitle. This folder only contain JP audio only, and part of The Handsome Collection.
 
+
 Assume you are already unpack/unzip this folder at the time of reading this.
+
 
 Copy all the FOLDERS (select all, EXCEPT Japanese folder)
 and paste inside your Borderlands 2 DLC folder
