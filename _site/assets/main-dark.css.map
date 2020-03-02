@@ -3,8 +3,8 @@
 	"file": "main-dark.css",
 	"sources": [
 		"main-dark.scss",
-		"../../../../../Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/_dark.scss",
-		"../../../../../Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/base.scss"
+		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/_dark.scss",
+		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/base.scss"
 	],
 	"sourcesContent": [
 		"@import \"dark\";\n@import \"base\";\n",

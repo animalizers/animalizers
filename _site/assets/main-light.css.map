@@ -3,8 +3,8 @@
 	"file": "main-light.css",
 	"sources": [
 		"main-light.scss",
-		"../../../../../Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/_light.scss",
-		"../../../../../Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/base.scss"
+		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/_light.scss",
+		"C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/jekyll-theme-console-0.3.7/_sass/base.scss"
 	],
 	"sourcesContent": [
 		"@import \"light\";\n@import \"base\";\n",

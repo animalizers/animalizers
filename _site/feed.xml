@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-04T03:12:36+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">anii-dot-hakku</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">fallout4mod</title><link href="http://localhost:4000/fo4.md" rel="alternate" type="text/html" title="fallout4mod" /><published>2020-02-04T00:00:00+07:00</published><updated>2020-02-04T00:00:00+07:00</updated><id>http://localhost:4000/fo4</id><content type="html" xml:base="http://localhost:4000/fo4.md">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-03-03T01:06:31+07:00</updated><id>/feed.xml</id><title type="html">anii-dot-hakku</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Borderlands 2 JP VO/EN Dub</title><link href="/gaming/2020/03/02/bl2jpvo.html" rel="alternate" type="text/html" title="Borderlands 2 JP VO/EN Dub" /><published>2020-03-02T00:00:00+07:00</published><updated>2020-03-02T00:00:00+07:00</updated><id>/gaming/2020/03/02/bl2jpvo</id><content type="html" xml:base="/gaming/2020/03/02/bl2jpvo.html">&lt;p&gt;&lt;a href=&quot;Attachment.zip&quot;&gt;Attachment.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;How to Borderlands 2 Japanese Voiceover/Dub with English subtitle. This folder only contain JP audio only, and part of The Handsome Collection.&lt;/p&gt;
+
+&lt;h1 id=&quot;assume-you-are-already-unpackunzip-this-folder-at-the-time-of-reading-this&quot;&gt;Assume you are already unpack/unzip this folder at the time of reading this.&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Copy all the FOLDERS (select all, EXCEPT Japanese folder)
+and paste inside your Borderlands 2 DLC folder
+&lt;code class=&quot;highlighter-rouge&quot;&gt;..\SteamLibrary\steamapps\common\Borderlands 2\DLC&lt;/code&gt;
+&lt;br /&gt;
+Copy ONLY Japanese folder and paste inside CookedPCConsole
+&lt;code class=&quot;highlighter-rouge&quot;&gt;..\SteamLibrary\steamapps\common\Borderlands 2\WillowGame\CookedPCConsole&lt;/code&gt;
+&lt;br /&gt;
+Copy WillowEngine.ini file and paste inside your local game directory&lt;/p&gt;
+
+&lt;p&gt;TIP: You can make a BACKUP your current .ini by just rename it to something like
+&lt;code class=&quot;highlighter-rouge&quot;&gt;WillowEngine-backup.ini&lt;/code&gt; in case you want to revert it back later
+&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Users\&amp;lt;your username&amp;gt;\Documents\My Games\Borderlands 2\WillowGame\Config&lt;/code&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;ps-and-question&quot;&gt;PS and Question:&lt;/h1&gt;
+&lt;p&gt;(*)-&lt;code class=&quot;highlighter-rouge&quot;&gt;WillowEngine.ini&lt;/code&gt; changes the default voiceover/dub inside the game.
+&lt;br /&gt;
+(?)-Will this work if I only have the base game and &lt;code class=&quot;highlighter-rouge&quot;&gt;The Season Pass&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;(+)-It should work though. The season pass is just bundled dlc afaik.
+You can try it.
+&lt;br /&gt;
+(?)-Will this work if I have mod installed?&lt;/p&gt;
+
+&lt;p&gt;(+)-I don’t know, I’m not playing with mod. You can try it.
+&lt;br /&gt;
+(?)-How I revert back to English dub?&lt;/p&gt;
+
+&lt;p&gt;(+)-Try delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;WillowEngine.ini&lt;/code&gt;, and rename the backup file. If it didn’t
+work, try to Verify the game file in Steam. Expect 1.5GiB file re-download.
+It will re-download english dub.
+&lt;br /&gt;
+If you want full more detailed guide visit this link
+(not created by me, instead this is the short version of that page)
+&lt;a href=&quot;https://steamcommunity.com/app/49520/discussions/0/490121928337536889/&quot;&gt;https://steamcommunity.com/app/49520/discussions/0/490121928337536889/&lt;/a&gt;
+&lt;br /&gt;
+Have a question? drop a comment on my &lt;a href=&quot;https://steamcommunity.com/id/animalizers&quot;&gt;steam profile&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Attachment.zip</summary></entry><entry><title type="html">fallout4mod</title><link href="/game/2020/02/04/fo4.html" rel="alternate" type="text/html" title="fallout4mod" /><published>2020-02-04T00:00:00+07:00</published><updated>2020-02-04T00:00:00+07:00</updated><id>/game/2020/02/04/fo4</id><content type="html" xml:base="/game/2020/02/04/fo4.html">&lt;table&gt;
 
 &lt;tr&gt;
 &lt;th&gt;0000&lt;/th&gt;
@@ -224,11 +265,11 @@
 &lt;th&gt;12226&lt;/th&gt;
 &lt;/tr&gt;
 
-&lt;/table&gt;</content><author><name></name></author><summary type="html">0000 + DLC: Wasteland Workshop -1 0001 + DLC: Vault-Tec Workshop -1 0002 + DLC: Nuka-World -1 0003 + DLC: Far Harbor -1 0004 + DLC: Contraptions Workshop -1 0005 + DLC: Automatron -1 0006 + Unofficial Fallout 4 Patch 0 0007 + LooksMenu 6 0008 + Caliente's Beautiful Bodies Enhancer -CBBE- 0 0009 + 512 Standalone Hair Colors 0 0010 + Race Customizer 0 0011 + RaceCustomizer - Player Exclusive Body 0 0012 + RaceCustomizer - Far Harbor 0 0013 - RaceCustomizer - Fusion City Rising Compatibility Patch 0 0014 - RaceCustomizer - Maxwells World Compatibility Patch 0 0015 - RaceCustomizer - LMCC Compatibility Patch 0 0016 + AnimeRace Nanakochan v1.5 0 0017 + AnimeRace - 512 StandaloneHairColors 0 0018 - AnimeRace - Immersive Gameplay Compatibility Patch 0 0019 + Commonwealth Cuts 0 0020 + Sun's Hepsy Hairs with Physics 29944 0021 + BodySlide and Outfit Studio 0 0022 + Photo Light 0 0023 + AnimeRace - Vanilla Underwear Remover 0 0024 + Nanakochan NPC-Replacer 38724 0025 + Red Dress 0 0026 + Armorsmith Extended v4.6 2228 0027 + Armor and Weapon Keywords Community Resource (AWKCR) 6091 0028 + Commonwealth Mini Dresses 0 0029 + Chem Lab Resoration Project 0 0030 + Survival Outfit Collection 0 0031 + Settlement Keywords Expanded v1.60 12226</summary></entry><entry><title type="html">Game modding</title><link href="http://localhost:4000/2020/02/04/game-modding.html" rel="alternate" type="text/html" title="Game modding" /><published>2020-02-04T00:00:00+07:00</published><updated>2020-02-04T00:00:00+07:00</updated><id>http://localhost:4000/2020/02/04/game-modding</id><content type="html" xml:base="http://localhost:4000/2020/02/04/game-modding.html">&lt;p&gt;List of mod I have(d) installed:&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">0000 + DLC: Wasteland Workshop -1 0001 + DLC: Vault-Tec Workshop -1 0002 + DLC: Nuka-World -1 0003 + DLC: Far Harbor -1 0004 + DLC: Contraptions Workshop -1 0005 + DLC: Automatron -1 0006 + Unofficial Fallout 4 Patch 0 0007 + LooksMenu 6 0008 + Caliente's Beautiful Bodies Enhancer -CBBE- 0 0009 + 512 Standalone Hair Colors 0 0010 + Race Customizer 0 0011 + RaceCustomizer - Player Exclusive Body 0 0012 + RaceCustomizer - Far Harbor 0 0013 - RaceCustomizer - Fusion City Rising Compatibility Patch 0 0014 - RaceCustomizer - Maxwells World Compatibility Patch 0 0015 - RaceCustomizer - LMCC Compatibility Patch 0 0016 + AnimeRace Nanakochan v1.5 0 0017 + AnimeRace - 512 StandaloneHairColors 0 0018 - AnimeRace - Immersive Gameplay Compatibility Patch 0 0019 + Commonwealth Cuts 0 0020 + Sun's Hepsy Hairs with Physics 29944 0021 + BodySlide and Outfit Studio 0 0022 + Photo Light 0 0023 + AnimeRace - Vanilla Underwear Remover 0 0024 + Nanakochan NPC-Replacer 38724 0025 + Red Dress 0 0026 + Armorsmith Extended v4.6 2228 0027 + Armor and Weapon Keywords Community Resource (AWKCR) 6091 0028 + Commonwealth Mini Dresses 0 0029 + Chem Lab Resoration Project 0 0030 + Survival Outfit Collection 0 0031 + Settlement Keywords Expanded v1.60 12226</summary></entry><entry><title type="html">Game modding</title><link href="/2020/02/04/game-modding.html" rel="alternate" type="text/html" title="Game modding" /><published>2020-02-04T00:00:00+07:00</published><updated>2020-02-04T00:00:00+07:00</updated><id>/2020/02/04/game-modding</id><content type="html" xml:base="/2020/02/04/game-modding.html">&lt;p&gt;List of mod I have(d) installed:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/animalizers/anii/blob/master/gamemod/tesv-skyrim.csv&quot;&gt;Skyrim&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Fallout4 &lt;a href=&quot;https://github.com/animalizers/anii/blob/master/gamemod/fallout4.csv&quot;&gt;Github&lt;/a&gt; &lt;a href=&quot;/fo4.md&quot;&gt;Web&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">List of mod I have(d) installed:</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-02-03T21:42:51+07:00</published><updated>2020-02-03T21:42:51+07:00</updated><id>http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/animalizers/anii/blob/master/gamemod/fallout4.csv&quot;&gt;Fallout 4&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">List of mod I have(d) installed:</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2020/02/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-02-03T21:42:51+07:00</published><updated>2020-02-03T21:42:51+07:00</updated><id>/jekyll/update/2020/02/03/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2020/02/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
