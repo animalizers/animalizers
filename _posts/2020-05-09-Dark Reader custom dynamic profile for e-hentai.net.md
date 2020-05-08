@@ -7,7 +7,6 @@ categories: stylesheet
 Usage: Copy code below or <a href="https://github.com/animalizers/anii/blob/master/Dark%20Reader%20custom%20preset/e-hentai.net.css" target="_blank">view in github</a>
 {% highlight css %}
 ================================
-
 e-hentai.org
 
 CSS
